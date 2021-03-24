@@ -12,7 +12,8 @@ library(NbClust)
 ```
 The dataset requird need to have the following format,
 ```{r}
-Latitude Longtitude Number of indiviudals/n photo-captured
+Latitude Longtitude Number of indiviudals 
+                        photo-captured
 20.27764  79.38614  4
 20.29808  79.37403  3
 20.252    79.38497  1
