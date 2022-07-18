@@ -8,7 +8,7 @@ library(WeightedCluster)
 #####################################################################################3
 setwd("D:/Data_hub/TATR_CT/Nianjan_WD analysis")
 ###2014 data 
-wddat <-read.csv("WD_locations_copy.csv", header=TRUE)
+wddat <-read.csv("WD_locations_data.csv", header=TRUE)
 head(wddat)
 long <-wddat$northing
 lat <-wddat$easting
